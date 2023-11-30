@@ -6,7 +6,7 @@
 # Please specify the name of the company that has the biggest amount of the above-mentioned complaints.
 
 # The name of the company: Bank of America (5 points)
-# Frequency of the mentioned complaints of the company: 52 (5 points)
+# Frequency of the mentioned complaints of the company: 13 (5 points)
 
 # Solution 1
 
@@ -22,7 +22,7 @@ AND DATEDIFF(Data_sent_to_company, Data_received) > 5
 
 GROUP BY Company
 ORDER BY mentionedComplaintsCount DESC
-LIMIT 1;
+LIMIT 5;
 
 
 # Solution 2

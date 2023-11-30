@@ -5,8 +5,8 @@
 # ratio [or percentage] for an individual company is calculated as:
 # The amount of its cases featured with ‘closed with relief’ / the amount of its total cases
 
-# The name of the company: _________ (5 points)
-# The ratio of the cases for the company: _________ (5 points) 
+# The name of the company: Barclays (5 points)
+# The ratio of the cases for the company: 0.4286 (5 points) 
 
 # Solution 1
 SELECT Company,
@@ -17,14 +17,6 @@ FROM cfpb_complaints_2500
 GROUP BY Company
 HAVING COUNT(*) > 30
 ORDER BY ReliefRatio DESC
-LIMIT 1;
+LIMIT 5;
 
-# Solution 2
-SELECT Company, 
-       SUM(CASE WHEN Company_response = 'closed with relief' THEN 1 ELSE 0 END) / COUNT(*) AS relief_ratio
-FROM cfpb_complaints_2500
-GROUP BY Company
-HAVING COUNT(*) > 30
-ORDER BY relief_ratio DESC
-LIMIT 1;
 

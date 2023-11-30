@@ -1474,7 +1474,7 @@ INSERT INTO `cfpb_complaints_2500` (`Complaint ID`, `Product`, `Sub_product`, `I
 	(29020, 'Credit card', '', 'APR or interest rate', '', 44224, 'OH', 'Web', '2012-03-01', '2012-03-01', 'Bank of America', 'Closed with relief', 'Yes', 'No'),
 	(29032, 'Credit card', '', 'APR or interest rate', '', 20745, 'MD', 'Referral', '2012-03-01', '2012-03-01', 'Bank of America', 'Closed with relief', 'Yes', 'No'),
 	(29042, 'Credit card', '', 'Billing disputes', '', 32724, 'FL', 'Referral', '2012-03-01', '2012-03-01', 'Bank of America', 'Closed without relief', 'Yes', 'Yes'),
-	(29088, 'Mortgage', 'Other mortgage', 'Loan modification,collecfpb_complaints_2500ction,foreclosure', '', 91342, 'CA', 'Web', '2012-03-01', '2012-03-01', 'Bank of America', 'Closed without relief', 'Yes', 'No'),
+	(29088, 'Mortgage', 'Other mortgage', 'Loan modification,collection,foreclosure', '', 91342, 'CA', 'Web', '2012-03-01', '2012-03-01', 'Bank of America', 'Closed without relief', 'Yes', 'No'),
 	(29094, 'Bank account or service', 'Checking account', 'Deposits and withdrawals', '', 94116, 'CA', 'Web', '2012-03-01', '2012-03-01', 'Bank of America', 'Closed with relief', 'Yes', 'No'),
 	(29116, 'Mortgage', 'Conventional fixed mortgage', 'Loan servicing, payments, escrow account', '', 72102, 'AR', 'Referral', '2012-03-01', '2012-03-01', 'Bank of America', 'Closed without relief', 'Yes', 'No'),
 	(75530, 'Bank account or service', 'Checking account', 'Account opening, closing, or management', '', 90066, 'CA', 'Web', '2012-03-01', '2012-03-01', 'Bank of America', 'Closed without relief', 'Yes', 'Yes'),
